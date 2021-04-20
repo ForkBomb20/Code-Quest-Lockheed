@@ -20,7 +20,7 @@ for caseNum in range(cases):
     # Repeat for each word in the current set
     for wordNum in range(word_cases):
         
-        # Get teh current word in the current set and creat an empty list to store the new phonetic form
+        # Get the current word in the current set and creat an empty list to store the new phonetic form
         word = sys.stdin.readline().rstrip()
         new_form = []
         
